@@ -1,0 +1,26 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+body {
+	background: #F2F2F2;
+	background-size:100px 50px;
+	margin: 0;
+	padding: 0;
+}
+
+#stage {
+	background: #FFF;
+	border-radius: 3px;
+	box-shadow: 0px 1px 4px #ccc;
+	margin: 10% auto;
+	min-height: 400px;
+	padding: 20px;
+	width: 80%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 0;
+}
